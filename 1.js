@@ -5,7 +5,8 @@ $(function() {
 		/* Act on the event */
 		$('._td1khoi').removeClass('doimau')
 		$(this).toggleClass('doimau');
-		$(this).next().slideToggle();
+		$(this).next().slideToggle(900, "easeInOutExpo");
+		$('html,body').animate({scrollTop: $(this).offset().top},900, "easeInOutExpo")
 	});
 	// code cho fancybox
 	$("a[rel=mot]").fancybox();
