@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+._1khoi {
+    border-bottom: 1px solid #dccaca;
+    margin-bottom: 21px;
+    padding-bottom: 40px;
+    color: #8c6666;
+}
+
+.ndkhoi {}
+
+h2._td1khoi {
+    height: 30px;
+    color: #93d89c;
+    cursor: pointer;
+}
+
+h2._td1khoi.doimau {
+    color: #9e7889;
+}
+
+.khoianh {
+    overflow: hidden;
+}
+
+img.anhnhoi {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.noidung {
+    width: 37%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 33px;
+    margin-bottom: 100px;
+}
